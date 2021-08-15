@@ -1,0 +1,124 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a { text-decoration: none;
+    display: inline-block;
+}
+.header__nav {
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(65, 63, 63);
+}
+.header__nav--logo {
+    width: 200px;
+}
+.header__nav--img {
+    height: 30px;
+}
+.header__nav__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head__items {
+    color: white;
+    margin-right: 20px;
+    font-size: 16px;
+    font-family: Helvetica Neue;
+}
+.header__nav__container--search>input {
+    height: 40px;
+    width: 230px;
+    border-radius: 5px;
+    text-indent: 20px;
+    color: rgb(255, 254, 254);
+    font-size: 16px;
+}
+.header__nav__container--games::after, .header__nav__container--consoles::after, .header__nav__container--mybox::after {
+    content: '';
+    width: 20px;
+    height: 8px;
+    background-image: url(../img/Shape.png);
+    display: inline-block;
+    background-repeat: no-repeat;
+    margin-left: 5px;
+}
+.header__nav__container--mybox::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/user.png);
+    display: inline-block;
+    background-repeat: no-repeat;
+    margin-right: 7px;
+}
+.container {
+    max-width: 1400px;
+    padding: 0 5px;
+    margin: 0 auto;
+}
+.header {
+    margin: 0 auto;
+}
+.header__inner {
+    background-image: url("../img/Star-Wars-Battlefront-II-combat.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 206px;
+    padding-bottom: 200px;
+}
+.header__about {
+ margin: 0 auto;
+ display: flex; 
+ justify-content: flex-end;  
+ max-width: 533px;
+ margin-bottom: 134px;
+
+}
+.header__about-inner{
+    max-width: 165px;
+}
+.header__about div {
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    display: inline-block;
+}
+.header__about-title {
+    font-size: 36px;
+    line-height: 42px;
+}
+.header__about-part {
+    font-size: 24px;
+    line-height: 28px;
+}
+.header__btns {
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    max-width: 840px;
+}
+.header__btn {
+    border-radius: 4px;
+    text-align: center;
+    font-family: sans-serif; 
+    font-size: 16px;
+    line-height: 21px;
+    color: #fff;
+    border: none;
+}
+.watch{
+    padding: 8px 24px 9px 19px;
+    background-color: #8DD83D;
+    margin-right: 13px;
+}
+.explore{
+    padding: 8px 24px 9px 19px;
+    background:linear-gradient(180deg, #686868);
+
+}
